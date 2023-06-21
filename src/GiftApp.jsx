@@ -18,6 +18,8 @@ export const GiftApp = () => {
 
     }
   }
+
+
     
     return (
     <>
@@ -25,7 +27,7 @@ export const GiftApp = () => {
     <h1>Gift Expert App</h1>
     
     {/* //Enviamos la función al nuevo componente */}
-    <AddCategory onNewCategory={onAddCategory} ></AddCategory>
+    <AddCategory onNewCategory={onAddCategory}  ></AddCategory>
     
     
       {/* Recorre el listado y en cada elemento y lo manda al componente GifGrid */}

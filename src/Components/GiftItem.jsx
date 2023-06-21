@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'; // ES6
 
 export const GiftItem = ({id,title,urlImg}) => {
   return (
@@ -10,4 +11,9 @@ export const GiftItem = ({id,title,urlImg}) => {
         
         </>
   )
+}
+
+GiftItem.propTypes={
+  title:PropTypes.string.isRequired,
+  urlImg:PropTypes.string.isRequired
 }
