@@ -33,7 +33,7 @@ export default function AddCategory({onNewCategory,borrarGifs}) {
     
     <form action="" onSubmit={onSubmit} aria-label='form'>
 
-        <input type="text" placeholder="Insert an category" onInput={onInputChange} value={inputValue} />
+        <input type="text" placeholder="What do you want to search?" onInput={onInputChange} value={inputValue} />
     </form>
     </>
   )

@@ -17,3 +17,4 @@ export const apiGif=async(category)=>{
     return infoGifs
     // setGifs(infoGifs)
 }
+
